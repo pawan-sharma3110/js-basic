@@ -14,3 +14,10 @@ b = c;
     console.log("b is " + b);
 }
 console.log(test());
+
+
+// age counter
+
+var dogAge = prompt("Write your dog age here.");
+var humanAge = (dogAge -2)*4+21;
+alert("Human age is" + " "+ humanAge);
